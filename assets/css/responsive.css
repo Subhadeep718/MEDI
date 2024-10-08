@@ -1,0 +1,231 @@
+/*------------------- MEDIA QUERRY (RESPONSIVE FOR MAXIMUM 1920PX) SECTION START ---------------*/
+@media only screen and (max-width: 1920px) {
+
+}
+
+/*------------------- MEDIA QUERRY (RESPONSIVE FOR MAXIMUM 1920PX) SECTION COMPLETED ---------------*/
+
+/*------------------- MEDIA QUERRY (RESPONSIVE FOR MAXIMUM 1599PX) SECTION START ---------------*/
+@media only screen and (max-width: 1599px) {
+}
+
+/*------------------- MEDIA QUERRY (RESPONSIVE FOR MAXIMUM 1599PX) SECTION COMPLETED ---------------*/
+
+/*------------------- MEDIA QUERRY (RESPONSIVE FOR MAXIMUM 1299PX) SECTION START ---------------*/
+@media only screen and (max-width: 1299px) {
+        .header nav ul li {
+        margin-right: 0;
+    }
+    section.jumbotron .top-banner {
+        left: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+    section.jumbotron .top-banner .top-banner-movement .shipping-part .shipping {
+        padding: 1rem 0;
+    }
+    .section-all-btn {
+        width: 70%;
+    }
+    section.product a .product-card .product-img {
+        height: 190px;
+    }
+    section.product a .product-card .product-img-info {
+        padding: 0.5rem 1rem;
+    }
+    button.btn.cart-btn {
+        margin-bottom: 0.5rem;
+    }
+    section.video {
+        height: 70vh;
+    }
+    section.testimonials .testimonials-card {
+        height: 520px;
+    }
+    section.testimonials .testimonials-card {
+        height: 500px;
+    }
+    section.services .services-overlay .circle .circle-bg {
+        width: 98%;
+    }
+    section.services .services-overlay .circle .circle-bg .child-circle .child-circle-img {
+        width: 120px;
+    }
+    section.services .services-overlay .circle .circle-img-top {
+        height: 240px;
+        width: 240px;
+    }    
+    section.services {
+        height: 90vh;
+    }
+    section.testimonials .testimonials-image-part .testimonials-image {
+        height: 130px;
+        width: 130px;
+    }
+}
+
+/*------------------- MEDIA QUERRY (RESPONSIVE FOR MAXIMUM 1299PX) SECTION COMPLETED ---------------*/
+
+/*------------------- MEDIA QUERRY (RESPONSIVE FOR MAXIMUM 992PX) SECTION START ---------------*/
+
+@media only screen and (max-width: 992px) {
+    section.jumbotron .top-banner .top-banner-movement .shipping-part .shipping {
+        width: 25%;
+    }
+    section.jumbotron .top-banner .top-banner-movement .shipping-part {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .section-part {
+        flex-direction: column-reverse;
+    }
+    .section-heading {
+        width: 100%;
+    }
+    .section-all-btn {
+        width: 100%;
+    }
+    .section-all-btn::after {
+        right: 12rem;
+    }
+    section.product,
+    section.category,
+    section.testimonials,
+    section.product-gallery {
+        padding: 2.5rem 0;
+    }
+    button.btn.cart-btn {
+        margin-bottom: 0;
+    }
+    section.video {
+        height: 60vh;
+    }
+    section.category .category-card button.btn {
+        width: 100% !important;
+    }
+    section.category a .category-card .category-image .category-info-hover {
+        height: 28%;  
+    }
+    section.testimonials .testimonials-card {
+        height: 440px;
+    }
+    section.testimonials .testimonials-image-part .testimonials-image {
+        height: 158px;
+        width: 158px;
+    }
+    section.testimonials .testimonials-image-part {
+        margin-top: 1rem;
+    }
+    section.testimonials .custom-nav {
+        margin-top: 2rem !important;
+    }
+    section.services .services-overlay .circle .circle-img-top {
+        height: 180px;
+        width: 180px;
+        margin-top: 6rem;
+    }
+    section.services .services-overlay .circle .circle-bg .child-circle .child-circle-text {
+        padding: 1rem 1rem;
+        border-radius: 20px;
+    }
+    section.services .services-overlay .circle .circle-bg .child-circle .child-circle-img {
+        width: 150px;
+    }
+    section.services {
+        height: 85vh;
+    }
+}
+
+/*------------------- MEDIA QUERRY (RESPONSIVE FOR MAXIMUM 992PX) SECTION COMPLETED ---------------*/
+
+/*------------------- MEDIA QUERRY (RESPONSIVE FOR MAXIMUM 768PX) SECTION START ---------------*/
+
+@media only screen and (max-width: 768px) {
+    header nav .top-header ul.top-nav-links {
+        margin-bottom: 0.4rem;
+        text-align: center;
+    }
+    header nav ul li {
+        margin: 0;
+    }
+    section.jumbotron .top-banner .top-banner-movement .shipping-part .shipping {
+        width: 33%;
+        border: none;
+        backdrop-filter: unset !important;
+    }
+    section.product a .product-card .product-img {
+        height: 160px;
+    }
+    .hide-main {
+        display: block;
+    }
+    button.btn.cart-btn {
+        margin-bottom: 0.5rem;
+    }  
+    section.testimonials .testimonials-card {
+        height: auto;
+        padding: 2rem 2rem;
+    }
+    section.testimonials .testimonials-image-part .testimonials-image {
+        height: 155px;
+        width: 155px;
+    }
+    section.services .services-overlay .circle .circle-img-top {
+        height: 280px;
+        width: 280px;
+        margin: 0 0 2rem;
+    }
+    section.services {
+        height: auto;
+    }
+    section.services .services-overlay .circle .circle-bg {
+        position: relative;
+    }
+    section.services .services-overlay .circle .circle-bg .child-circle {
+        flex-direction: row;
+        position: relative;
+        top: unset !important;
+        left: unset !important;
+        right: unset !important;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    section.services .services-overlay .circle .circle-bg .child-circle .child-circle-img {
+        width: 80px;
+    }
+}
+
+/*------------------- MEDIA QUERRY (RESPONSIVE FOR MAXIMUM 768PX) SECTION COMPLETED ---------------*/
+
+/*------------------- MEDIA QUERRY (RESPONSIVE FOR MAXIMUM 576PX) SECTION START ---------------*/
+
+@media only screen and (max-width: 576px) {
+    section.testimonials .testimonials-image-part .testimonials-image {
+        height: 158px;
+        width: 158px;
+    }
+    .section-all-btn {
+        margin-bottom: 1rem;
+    }
+    .section-all-btn button.btn {
+        width: 50% !important;
+    }
+    .section-all-btn::after {
+        width: 150px;
+    }
+    section.jumbotron .top-banner .top-banner-movement .shipping-part .shipping {
+        width: 50%;
+    }
+    header nav ul li {
+        margin-bottom: 0.5rem;
+    }
+}
+
+/*------------------- MEDIA QUERRY (RESPONSIVE FOR MAXIMUM 576PX) SECTION COMPLETED ---------------*/
+
+/*------------------- MEDIA QUERRY (RESPONSIVE FOR MAXIMUM 375PX) SECTION START ---------------*/
+
+@media only screen and (max-width: 375px) {
+}
+
+/*------------------- MEDIA QUERRY (RESPONSIVE FOR MAXIMUM 375PX) SECTION COMPLETED ---------------*/
